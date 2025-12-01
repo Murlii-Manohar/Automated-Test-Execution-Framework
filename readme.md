@@ -160,7 +160,7 @@ This section describes all the REST APIs exposed by the Automated Test Execution
 - **Request Body (JSON):**
 ```json
 {
-  "username": "murli",
+  "username": "yourname",
   "password": "yourPassword"
 }
 ```
@@ -279,7 +279,7 @@ These APIs are used to execute test cases and view execution results.
 {
   "testCaseId": 1,
   "environment": "QA",
-  "executedBy": "murli",
+  "executedBy": "yourname",
   "status": "PASSED",
   "remarks": "All validations passed"
 }
@@ -293,7 +293,7 @@ These APIs are used to execute test cases and view execution results.
   "testCaseId": 1,
   "status": "PASSED",
   "executionTime": "2025-12-01T10:45:30",
-  "executedBy": "murli",
+  "executedBy": "yourname",
   "remarks": "All validations passed"
 }
 ```
